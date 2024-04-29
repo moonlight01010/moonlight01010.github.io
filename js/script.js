@@ -1,6 +1,3 @@
-var button =document.getElementById("button");
+var nama = prompt("siapa namamu?", "");
 
-button.addEventListener("click", function(){
-    alert("Hello, nice to see u here!");
-    alert("don't expect to much this is just for fun!!");
-});
+alert("Hello " + nama + "!!!")
